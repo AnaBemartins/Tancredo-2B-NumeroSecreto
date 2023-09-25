@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+:root{
+    --font-family: 'Oswald', sans-serif; ;
+    --cor-de-fundo:#1F6E8C;
+    --cor-primaria:#79155B;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color:var(--cor-primaria);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
