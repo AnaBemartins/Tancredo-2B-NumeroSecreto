@@ -9,8 +9,8 @@ function gerarNumeroAleatorio(){
 
 console.log('Número Secreto', numeroSecreto)
 
-const elementoMenorValor = document.getElementById(' menor-valor')
-elementomenorValor.innerHTML = menorValor
+const elementoMenorValor = document.getElementById('menor-valor')
+elementoMenorValor.innerHTML = menorValor;
 
 const elementoMaiorValor = document.getElementById('maior-valor')
-elementoMaiorValor.innerHTML = maiorValor
+elementoMaiorValor.innerHTML = maiorValor;
